@@ -1,0 +1,32 @@
+
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background: var(--branco-fumaca);
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.cabecalho--container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    border: solid 1px red;
+    justify-content: space-between;
+}
+
+.cabecalho--logo-caixa-pesquisa{
+    display: flex;
+}
+
+.cabecalho--logo{
+    color: var(--preto);
+}
+
+.cabecalho--caixa-pesquisa{
+    width: 500px;
+    font-size: 2rem;
+    color: var(--preto);
+    background: #d7d7d7
+}
