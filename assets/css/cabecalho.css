@@ -1,9 +1,8 @@
 
-
 .cabecalho{
     display: flex;
     justify-content: space-between;
-    background: var(--branco-fumaca);
+    background-image: url("../img/robot.jpg");
     padding: 20px 0;
     margin: 0 auto;
 }
@@ -12,21 +11,37 @@
     width: 80%;
     margin: 0 auto;
     display: flex;
-    border: solid 1px red;
+    /*border: solid 1px red;*/
     justify-content: space-between;
 }
 
 .cabecalho--logo-caixa-pesquisa{
     display: flex;
+    width: 50%;
+    justify-content: space-between;
+    /*border: solid pink 2px;*/
+
 }
 
 .cabecalho--logo{
-    color: var(--preto);
+    color: var(--branco-fumaca);
 }
 
 .cabecalho--caixa-pesquisa{
+    left: 80px;
     width: 500px;
-    font-size: 2rem;
-    color: var(--preto);
-    background: #d7d7d7
+    font-size: 1rem;
+    color: var(--branco-fumaca);
+    background: #555555;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    resize: none;
+
+
+}
+
+.cabecalho--caixa-pesquisa{
+    border: solid 2px silver;
 }

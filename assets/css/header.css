@@ -1,0 +1,110 @@
+header{
+    background-image: url("../img/wall6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-position-y: -20px;
+    background-repeat: no-repeat;
+
+}
+
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background: var(--preto);
+
+    margin: 0 auto;
+}
+
+.cabecalho--container{
+    padding: 40px 0;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    /*border: solid 1px red;*/
+    justify-content: space-between;
+}
+
+.cabecalho--logo-caixa-pesquisa{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    /*border: solid pink 2px;*/
+
+}
+
+.cabecalho--logo{
+    color: var(--branco-fumaca);
+}
+
+.cabecalho--caixa-pesquisa{
+    left: 80px;
+    width: 500px;
+    font-size: 1.2rem;
+    color: var(--branco-fumaca);
+    background: none;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    resize: none;
+
+
+}
+
+.cabecalho--caixa-pesquisa{
+    border: solid 2px silver;
+}
+
+.cabecalho--btn-login{
+    font-family: var(--ralewey);
+    font-weight: lighter;
+    border: var(--azul-botao) 1px solid;
+    color: var(--azul-botao);
+    width: 10rem;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*banner*/
+.banner{
+    /*background-color: red;*/
+    /*border: pink solid 1px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 300px;
+    
+}
+
+.banner h1{
+    margin-top: 5rem;
+    font-family: var(--ralewey);
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.banner span{
+    margin-top: 2rem;
+    font-family: var(--ralewey);
+    font-weight: 400;
+    font-size: 1.7rem;
+}
+
+.banner a{
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    font-family: var(--ralewey);
+    font-weight: lighter;
+    background: var(--azul-botao);
+    color: var(--branco-fumaca);
+    width: 9.5rem;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}

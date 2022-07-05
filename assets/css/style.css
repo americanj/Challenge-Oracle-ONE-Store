@@ -1,20 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');
 
 
 :root{
     --preto: #000000;
     --opensans: 'Open Sans', sans-serif;
+    --ralewey: 'Raleway', sans-serif;
     --branco: #FFF;
     --branco-fumaca: #F5F5F5;
     --black: #0000;
+    --preto-claro: #444444;
+    --azul-botao: #2A7AE4;
+
 
     
 }
 
 body{
     color: var(--branco);
-    background-color: var(--preto);
+    background-color: #363636;
     font-family: var(--opensans);
     font-size: 2rem;
 }
