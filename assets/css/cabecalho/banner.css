@@ -1,0 +1,39 @@
+.banner{
+    /*background-color: red;*/
+    /*border: pink solid 1px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 340px;
+}
+
+.banner__titulo {
+    margin-top: 6rem;
+    /*font-family: var(--ralewey);*/
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.banner__subtitulo {
+    margin-top: -0.75rem;
+    font-family: var(--ralewey);
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.banner__botao{
+    display: inline-block;
+    margin-top: 1.25rem;
+    /*margin-bottom: 1.2rem;*/
+    font-family: var(--ralewey);
+    font-weight: lighter;
+    background: var(--azul);
+    color: var(--branco-fumaca);
+    /*width: 9.5rem;*/
+    padding: 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}

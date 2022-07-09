@@ -5,28 +5,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/padrao/reset.css">
+    <link rel="stylesheet" href="assets/css/padrao/normalize.css">
+    <link rel="stylesheet" href="assets/css/padrao/style.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/header.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/banner.css">
     <title>Home - Fanatical Games</title>
 </head>
 
 <body>
-    <header>
-        <nav class="cabecalho">
-            <div class="cabecalho--container">
-                <div class="cabecalho--logo-caixa-pesquisa">
-                    <p class="cabecalho--logo">Logo</p>
-                    <input class="cabecalho--caixa-pesquisa" type="search" name="" id="" placeholder="O que deseja encontrar?">
-                </div>
-                <a class="cabecalho--btn-login" href="">Login</a>
+    <header class="borda">
+        <nav class="cabecalho borda">
+            <div class="cabecalho__container borda">
+                <p class="cabecalho__logo">Logo</p>
+                <input class="cabecalho__caixa-pesquisar" type="search" name="" id="" placeholder="O que deseja encontrar?">
+                <a class="cabecalho__btn-login" href="">Login</a>
             </div>
         </nav>
-        <section class="banner">
-            <h1>Dezembro Promocional</h1>
-            <span>Jogos selecionados 33% de desconto</span>
-            <a href="">Ver Consoles</a>
+        <section class="banner borda">
+            <h1 class="banner__titulo">Dezembro Promocional</h1>
+            <h2 class="banner__subtitulo">Jogos selecionados 33% de desconto</h2>
+            <h3><a class="banner__botao" href="">Ver Consoles</a></h3>
         </section>
     </header>
-</body> 
+
+
+
+
+</body>
 </html>

@@ -10,15 +10,17 @@
     --branco-fumaca: #F5F5F5;
     --black: #0000;
     --preto-claro: #444444;
-    --azul-botao: #2A7AE4;
-
-
-    
+    --azul: #2A7AE4;
 }
 
 body{
     color: var(--branco);
     background-color: #363636;
-    font-family: var(--opensans);
+    font-family: var(--ralewey);
     font-size: 2rem;
 }
+/*
+.borda{
+    border: solid 2px green;
+}
+*/
