@@ -6,6 +6,7 @@
 .games__flex-info-nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 
@@ -18,6 +19,10 @@
     font-size: 1.5rem;
     text-decoration: none;
     color: var(--azul);
+}
+
+.games__botao:hover{
+    text-decoration: underline;
 }
 
 .games__carrosel{
@@ -50,4 +55,9 @@
 .games__ver-produto{
     font-size: 1.2rem;
     margin: 10px 0;
+    color: var(--azul);
+}
+
+.games__ver-produto:hover{
+    text-decoration: underline;
 }
