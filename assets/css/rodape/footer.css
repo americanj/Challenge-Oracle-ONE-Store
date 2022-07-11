@@ -6,7 +6,7 @@ footer{
 
 .rodape__flex-container{
     width: 80%;
-    margin: 5rem auto;
+    margin: 8rem auto 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -81,7 +81,7 @@ form{
 
 .rodape__input-enviar{
     margin-top: 1rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     width: 30%;
     padding: 10px;
     background: var(--azul);
@@ -98,5 +98,12 @@ form{
 
 .rodape__logo, .rodape__flex-nav, .rodape__flex-form{
     margin-top: 6rem;
+}
+
+.direitos{
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 3rem 0;
 }
 
