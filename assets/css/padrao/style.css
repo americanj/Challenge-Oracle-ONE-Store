@@ -11,13 +11,15 @@
     --black: #0000;
     --preto-claro: #444444;
     --azul: #2A7AE4;
+    --banner: (#202024);
 }
 
 body{
     color: var(--branco);
-    background-color: #363636;
+    /*background-color: #363636;*/
+    background: #09090A;
     font-family: var(--ralewey);
-    font-size: 2rem;
+    /*font-size: 2rem;*/
 }
 /*
 .borda{

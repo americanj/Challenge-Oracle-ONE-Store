@@ -1,0 +1,53 @@
+.games{
+    background: #121214;
+    margin-top: 5rem;
+}
+
+.games__flex-info-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.games__titulo{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+.games__botao{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--azul);
+}
+
+.games__carrosel{
+    display: flex;
+}
+
+.games__flex-card{
+    display: flex;
+    flex-direction: column;
+    margin-right: 11px;
+
+}
+
+.games__imagem-jogo{
+    width: 245px;
+    height: 300px;
+}
+
+.games__nome-produto{
+    font-size: 1.2rem;
+    margin: 20px 0 10px 0;
+}
+
+.games__preco-produto{
+    font-size: 1.5rem;
+    margin: 5px 0;
+    font-weight: bold;  
+}
+
+.games__ver-produto{
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
