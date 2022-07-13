@@ -1,12 +1,68 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Adicionar produto</title>
+    <link rel="stylesheet" href="assets/css/padrao/normalize.css">
+    <link rel="stylesheet" href="assets/css/padrao/reset.css">
+    <link rel="stylesheet" href="assets/css/padrao/style.css">
+    <link rel="stylesheet" href="assets/css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="assets/css/pagina-adicionar-produto/adicionarProduto.css">
+    <link rel="stylesheet" href="assets/css/rodape/footer.css">
 </head>
+
 <body>
-    
+    <header class="borda">
+        <nav class="cabecalho borda">
+            <div class="cabecalho__container borda">
+                <p class="cabecalho__logo">Logo</p>
+                <input class="cabecalho__caixa-pesquisar" type="search" name="" id=""
+                    placeholder="O que deseja encontrar?">
+                <a class="cabecalho__btn-login" href="login.html">Login</a>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="adicionarProduto__flex-container">
+            <h1>Adicionar novo produto</h1>
+            <form action="">
+                <input class="adicionarProduto__input" type="url" placeholder="URL da imagem">
+                <input class="adicionarProduto__input" type="text" placeholder="Categoria">
+                <input class="adicionarProduto__input" type="text" placeholder="Nome do produto">
+                <input class="adicionarProduto__input" type="text" placeholder="Preço do produto">
+                <textarea class="adicionarProduto__input" name="" id="" cols="30" rows="10" placeholder="Descrição do produto"></textarea>
+                <input class="adicionarProduto__botao" type="submit" value="Adicionar produto">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="rodape__flex-container">
+            <img class="rodape__logo" src="assets/img/Logo.svg" alt="">
+            <div class="rodape__flex-nav">
+                <a class="rodape__links" href="">Quem somos nós</a>
+                <a class="rodape__links" href="">Política de privacidades</a>
+                <a class="rodape__links" href="">Programa fidelidade</a>
+                <a class="rodape__links" href="">Nossas lojas</a>
+                <a class="rodape__links" href="">Quero ser franqueado</a>
+                <a class="rodape__links" href="">Anuncie aqui</a>
+            </div>
+            <div class="rodape__flex-form">
+                <h5 class="rodape__titulo">Fale conosco</h5>
+                <form action="">
+                    <input class="rodape__input-nome" type="text" placeholder="Seu nome">
+                    <textarea class="rodape__textarea" name="" id="" cols="30" rows="10"
+                        placeholder="Escreva uma mensagem"></textarea>
+                    <input class="rodape__input-enviar" type="submit" value="Enviar mensagem">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <span class="direitos">Desenvolvido por: Igor De Oliveira | 2022</span>
 </body>
+
 </html>

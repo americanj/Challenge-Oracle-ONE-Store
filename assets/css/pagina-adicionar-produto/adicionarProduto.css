@@ -1,0 +1,41 @@
+
+
+.adicionarProduto__flex-container{
+    margin: 0 auto;
+    width: 40%;
+    margin-top: 4%;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.adicionarProduto__input{
+    background: #202024;;
+    margin: 1rem 0;
+    padding: 15px;
+    font-size: 1.1rem;
+    color: var(--branco-fumaca);
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.adicionarProduto__input:focus{
+    border: solid 1px var(--azul);
+}
+
+.adicionarProduto__botao{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    padding: 10px;
+    background: var(--azul);
+    color: var(--branco-fumaca);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
