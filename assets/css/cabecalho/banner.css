@@ -1,45 +1,100 @@
-
-
-
-
-
-
+@media screen and (min-width: 0px) {
+    header{
+        background-image: url("../../img/banner2.jpg");
+        background-size: 700px;
+        background-position: center;
+        background-position-y: 130px;
+        background-repeat: no-repeat;
+    }
     .banner {
-        /*background-color: red;*/
-        /*border: pink solid 1px;*/
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
-        height: 340px;
+        height: 150px;
     }
 
     .banner__titulo {
-        margin-top: 6rem;
-        /*font-family: var(--ralewey);*/
+        margin-top: 2rem;
         font-weight: bold;
-        font-size: 3.5rem;
+        font-size: 1.3rem;
     }
 
     .banner__subtitulo {
-        margin-top: -0.75rem;
+        margin-top: -0.3rem;
         font-family: var(--ralewey);
         font-weight: 500;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
     }
 
     .banner__botao {
         display: inline-block;
         margin-top: 1.25rem;
-        /*margin-bottom: 1.2rem;*/
         font-family: var(--ralewey);
         font-weight: lighter;
         background: var(--azul);
         color: var(--branco-fumaca);
-        /*width: 9.5rem;*/
         padding: 10px;
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         text-decoration: none;
         text-align: center;
     }
+}
+
+
+
+@media screen and (min-width: 768px) {
+    header{
+        background-image: url("../../img/banner2.jpg");
+        background-size: 1300px;
+        background-position-y: 35px;
+
+    }
+    .banner {
+        width: 90%;
+        height: 340px;
+    }
+
+    .banner__titulo {
+        margin-top: 6rem;
+        font-size: 2.5rem;
+    }
+
+    .banner__subtitulo {
+        margin-top: -0.75rem;
+        font-size: 1.5rem;
+    }
+
+    .banner__botao {
+        margin-top: 1.25rem;
+        color: var(--branco-fumaca);
+        font-size: 1.3rem;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    header{
+        background-size: cover;
+    }
+    .banner {
+        width: 80%;
+        height: 340px;
+    }
+
+    .banner__titulo {
+        margin-top: 6rem;
+        font-weight: bold;
+        font-size: 2.5rem;
+    }
+    .banner__subtitulo {
+        margin-top: -0.75rem;
+        font-size: 1.5rem;
+    }
+
+    .banner__botao {
+        margin-top: 1.25rem;
+        font-size: 1.3rem;
+    }
+}
