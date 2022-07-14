@@ -1,44 +1,78 @@
 
-.login__container{
-    margin: 0 auto;
-    width: 20%;
-    margin-top: 8%;
+@media screen and (min-width: 0px) {
+    .login__container{
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 20%;
+    }
+    
+    .login__flex-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .login__titulo{
+        margin-bottom: 2rem;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.9rem;
+    }
+    
+    .login__input{
+        background: #202024;;
+        margin: 1rem 0;
+        padding: 20px;
+        font-size: 1.1rem;
+        color: var(--branco-fumaca);
+        border: none;
+        outline: none;
+    }
+    
+    .login__input:focus{
+        border: solid 1px var(--azul);
+    }
+    
+    .login__input-botao{
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        padding: 10px;
+        background: var(--azul);
+        color: var(--branco-fumaca);
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
 }
 
-.login__flex-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+@media screen and (min-width: 798px) {
+    .login__container{
+        margin: 0 auto;
+        width: 80%;
+        margin-top: 8%;
+    }
+    
+    .login__flex-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .login__titulo{
+        margin-bottom: 2rem;
+        font-size: 1.9rem;
+    }
 }
 
-.login__titulo{
-    margin-bottom: 2rem;
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.9rem;
+
+@media screen and (min-width: 1024px) {
+    .login__container{
+        margin: 0 auto;
+        width: 25%;
+        margin-top: 8%;
+    }
 }
 
-.login__input{
-    background: #202024;;
-    margin: 1rem 0;
-    padding: 20px;
-    font-size: 1.2rem;
-    color: var(--branco-fumaca);
-    border: none;
-    outline: none;
-}
 
-.login__input:focus{
-    border: solid 1px var(--azul);
-}
 
-.login__input-botao{
-    margin-top: 1rem;
-    font-size: 1.3rem;
-    padding: 10px;
-    background: var(--azul);
-    color: var(--branco-fumaca);
-    border: none;
-    outline: none;
-    cursor: pointer;
-}

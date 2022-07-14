@@ -47,7 +47,7 @@
         font-size: 1.8rem;
         font-weight: bold;
         margin-bottom: 1rem;
-        align-self: flex-start;
+        align-self: center;
     }
     
     form{
@@ -149,8 +149,6 @@
         font-size: 1.2rem;
         margin-bottom: 2rem;
         align-self: flex-start;
- 
-  
     }
         
     .rodape__flex-form{
@@ -163,6 +161,7 @@
     .rodape__titulo{
         font-size: 1.5rem;
         margin-bottom: 1rem;
+        align-self: flex-start;
     }
     
     form{
