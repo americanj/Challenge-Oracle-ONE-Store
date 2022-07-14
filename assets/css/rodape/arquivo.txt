@@ -1,0 +1,114 @@
+@media screen and (min-width: 768px) {
+    footer{
+        width: 100%;
+        height: auto;
+        background: #202024;
+    }
+    
+    .rodape__flex-container{
+        width: 80%;
+        margin: 8rem auto 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .rodape__logo{
+        width: 200px;
+    }
+    
+    .rodape__flex-nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .rodape__links{
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        text-decoration: none;
+        color: var(--branco-fumaca);
+    }
+    
+    .rodape__links:hover{
+        color: var(--azul);
+    }
+    
+    .rodape__flex-form{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    
+    }
+    
+    .rodape__titulo{
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .rodape__input-nome{
+        padding: 20px;
+        background: #121214;
+        color: var(--branco-fumaca);
+        font-size: 1.2rem;
+        border: none;
+        outline: none;
+        resize: none;
+        margin-bottom: .7rem;
+    }
+    
+    .rodape__input-nome:focus{
+        border: var(--azul) solid 1px;
+    }
+    
+    .rodape__textarea{
+        padding: 20px;
+        background: #121214;
+        color: var(--branco-fumaca);
+        font-size: 1.1rem;
+        border: none;
+        outline: none;
+        resize: none;
+    }
+    
+    .rodape__textarea:focus{
+        border: var(--azul) solid 1px;
+    }
+    
+    
+    .rodape__input-enviar{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        width: 30%;
+        padding: 10px;
+        background: var(--azul);
+        color: var(--branco-fumaca);
+        border: none;
+        outline: none;
+        resize: none;
+        cursor: pointer;
+    }
+    .rodape__input-enviar:hover{
+        background: #4989dc;
+    }
+    
+    
+    .rodape__logo, .rodape__flex-nav, .rodape__flex-form{
+        margin-top: 6rem;
+    }
+    
+    .direitos{
+        display: block;
+        text-align: center;
+        font-size: 1.3rem;
+        margin: 3rem 0;
+    }
+
+}
+
+
+

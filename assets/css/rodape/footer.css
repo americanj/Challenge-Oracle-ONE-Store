@@ -1,109 +1,207 @@
-footer{
-    width: 100%;
-    height: auto;
-    background: #202024;
+@media screen and (min-width: 0px) {
+    footer{
+        width: 100%;
+        height: auto;
+        background: #202024;
+    }
+    
+    .rodape__flex-container{
+        width: 90%;
+        margin: 5rem auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    
+    .rodape__logo{
+        width: 200px;
+        align-self: center;
+        cursor: pointer;
+    }
+    
+    .rodape__flex-nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .rodape__links{
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+        text-decoration: none;
+        color: var(--branco-fumaca);
+        align-self: center;
+    }
+    
+    .rodape__links:hover{
+        color: var(--azul);
+    }
+    
+    .rodape__flex-form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    
+    }
+    
+    .rodape__titulo{
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+        align-self: flex-start;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .rodape__input-nome{
+        padding: 20px;
+        background: #121214;
+        color: var(--branco-fumaca);
+        font-size: 1.1rem;
+        border: none;
+        outline: none;
+        resize: none;
+        margin-bottom: 1rem;
+    }
+    
+    .rodape__input-nome:focus{
+        border: var(--azul) solid 1px;
+    }
+    
+    .rodape__textarea{
+        padding: 20px;
+        background: #121214;
+        color: var(--branco-fumaca);
+        font-size: 1.1rem;
+        border: none;
+        outline: none;
+        resize: none;
+    }
+    
+    .rodape__textarea:focus{
+        border: var(--azul) solid 1px;
+    }
+    
+    
+    .rodape__input-enviar{
+        align-self: center;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        width: 100%;
+        padding: 10px;
+        background: var(--azul);
+        color: var(--branco-fumaca);
+        border: none;
+        outline: none;
+        resize: none;
+        cursor: pointer;
+    }
+    
+    .rodape__input-enviar:hover{
+        background: #4989dc;
+    }
+    
+    
+    .rodape__logo, .rodape__flex-nav, .rodape__flex-form{
+        margin-top: 3rem;
+    }
+    
+    .direitos{
+        display: block;
+        text-align: center;
+        font-size: 1.1rem;
+        margin: 1rem 0;
+    } 
 }
 
-.rodape__flex-container{
-    width: 80%;
-    margin: 8rem auto 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.rodape__logo{
-    width: 250px;
-}
-
-.rodape__flex-nav{
-    display: flex;
-    flex-direction: column;
-}
-.rodape__links{
-    font-size: 1.3rem;
-    margin-bottom: 2rem;
-    text-decoration: none;
-    color: var(--branco-fumaca);
-}
-
-.rodape__links:hover{
-    color: var(--azul);
-}
-
-.rodape__flex-form{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-
-}
-
-.rodape__titulo{
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 1rem;
-}
-
-form{
-    display: flex;
-    flex-direction: column;
-}
-
-.rodape__input-nome{
-    padding: 20px;
-    background: #121214;
-    color: var(--branco-fumaca);
-    font-size: 1.2rem;
-    border: none;
-    outline: none;
-    resize: none;
-    margin-bottom: .7rem;
-}
-
-.rodape__input-nome:focus{
-    border: var(--azul) solid 1px;
-}
-
-.rodape__textarea{
-    padding: 20px;
-    background: #121214;
-    color: var(--branco-fumaca);
-    font-size: 1.2rem;
-    border: none;
-    outline: none;
-    resize: none;
-}
-
-.rodape__textarea:focus{
-    border: var(--azul) solid 1px;
-}
 
 
-.rodape__input-enviar{
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    width: 30%;
-    padding: 10px;
-    background: var(--azul);
-    color: var(--branco-fumaca);
-    border: none;
-    outline: none;
-    resize: none;
-    cursor: pointer;
-}
-.rodape__input-enviar:hover{
-    background: #4989dc;
-}
 
+@media screen and (min-width: 1024px) {
+    footer{
+        width: 100%;
+        height: auto;
 
-.rodape__logo, .rodape__flex-nav, .rodape__flex-form{
-    margin-top: 6rem;
-}
+    }
+    
+    .rodape__flex-container{
+        width: 80%;
+        margin: 8rem auto 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    
+    .rodape__logo{
+        width: 200px;
+        align-self: flex-start;
+        
+    }
+    
+    .rodape__flex-nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .rodape__links{
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+        align-self: flex-start;
+ 
+  
+    }
+        
+    .rodape__flex-form{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    
+    }
+    
+    .rodape__titulo{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .rodape__input-nome{
+        padding: 20px;
+        font-size: 1.2rem;
+        margin-bottom: .7rem;
+    }
+    
+    .rodape__textarea{
+        padding: 20px;
+        font-size: 1.1rem;
+    }
+    
+    .rodape__input-enviar{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+        width: 100%;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .rodape__input-enviar:hover{
+        background: #4989dc;
+    }
+    
+    .rodape__logo, .rodape__flex-nav, .rodape__flex-form{
+        margin-top: 6rem;
+    }
+    
+    .direitos{
+        display: block;
+        text-align: center;
+        font-size: 1.3rem;
+        margin: 3rem 0;
+    }
 
-.direitos{
-    display: block;
-    text-align: center;
-    font-size: 1.3rem;
-    margin: 3rem 0;
 }
 
