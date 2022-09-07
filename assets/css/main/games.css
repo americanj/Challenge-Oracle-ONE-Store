@@ -49,8 +49,24 @@
 
         /*background: rgba(255, 192, 203, 0.948);*/
         width: 100%;
+    }
 
+    .games__flex-lapis{
+        margin: 5px;
+        position: absolute;
+        margin-left: 3rem;
+        width: 30px;
+    }
 
+    .games__flex-trash{
+        margin: 5px;
+        position: absolute;
+        width: 25px;
+    }
+
+    .games__flex-trash:hover{
+        padding: 1px;
+        background: rgba(255, 0, 0, 0.345);
     }
 
     .games__imagem-jogo {
@@ -140,6 +156,24 @@
         width: 48%;
     }
 
+    .games__flex-lapis{
+        margin: 5px;
+        position: absolute;
+        margin-left: 3.5rem;
+        width: 40px;
+    }
+
+    .games__flex-trash{
+        margin: 5px;
+        position: absolute;
+        width: 30px;
+    }
+
+    .games__flex-trash:hover{
+        padding: 1px;
+        background: rgba(255, 0, 0, 0.345);
+    }
+
     .games__imagem-jogo {
         width: 100%;
         height: 100%;
@@ -216,7 +250,7 @@
         display: flex;
         flex-direction: column;
         /*margin-right: 11px;*/
-        /*background: yellow;*/
+       /*background: yellow;*/
         /*padding: 10px 5px 3px 5px;*/
         margin-top: 1rem;
         margin-bottom: 2.5rem;
@@ -226,6 +260,25 @@
         /*background: rgba(255, 192, 203, 0.948);*/
         width: 20%;
     }
+
+    .games__flex-lapis{
+        margin: 5px;
+        position: absolute;
+        margin-left: 1.5rem;
+        width: 20px;
+    }
+
+    .games__flex-trash{
+        margin: 5px;
+        position: absolute;
+        width: 15px;
+    }
+
+    .games__flex-trash:hover{
+        padding: 1px;
+        background: rgba(255, 0, 0, 0.345);
+    }
+
 
     .games__imagem-jogo {
         width: 90%;
