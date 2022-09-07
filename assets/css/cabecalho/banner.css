@@ -1,11 +1,13 @@
+/*CELULAR*/
 @media screen and (min-width: 0px) {
-    header{
+    header {
         background-image: url("../../img/banner2.jpg");
         background-size: 700px;
         background-position: center;
         background-position-y: 130px;
         background-repeat: no-repeat;
     }
+
     .banner {
         display: flex;
         flex-direction: column;
@@ -43,14 +45,15 @@
 }
 
 
-
+/*TABLET*/
 @media screen and (min-width: 768px) {
-    header{
+    header {
         background-image: url("../../img/banner2.jpg");
         background-size: 1300px;
         background-position-y: 35px;
 
     }
+
     .banner {
         width: 90%;
         height: 340px;
@@ -74,10 +77,12 @@
 }
 
 
+/*PC*/
 @media screen and (min-width: 1024px) {
-    header{
+    header {
         background-size: cover;
     }
+
     .banner {
         width: 80%;
         height: 340px;
@@ -88,6 +93,7 @@
         font-weight: bold;
         font-size: 2.5rem;
     }
+
     .banner__subtitulo {
         margin-top: -0.75rem;
         font-size: 1.5rem;

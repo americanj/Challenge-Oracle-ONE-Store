@@ -1,63 +1,260 @@
-.games{
-    background: #121214;
-    margin-top: 5rem;
+/*CELULAR*/
+@media screen and (min-width: 0px) {
+    .games {
+        background: #121214;
+        margin-top: 3rem;
+
+    }
+
+    .games__flex-info-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+
+    .games__titulo {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+    }
+
+    .games__botao {
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: var(--azul);
+    }
+
+    .games__botao:hover {
+        text-decoration: underline;
+    }
+
+    .games__carrosel {
+        display: flex;
+        /*background: red;*/
+        flex-wrap: wrap;
+        /*gap: 10px;*/
+    }
+
+    .games__flex-card {
+        display: flex;
+        flex-direction: column;
+        /*margin-right: 11px;*/
+        /*background: yellow;*/
+        /*padding: 10px 5px 3px 5px;*/
+        margin-top: 1rem;
+        margin-bottom: 2.5rem;
+
+        /*background: rgba(255, 192, 203, 0.948);*/
+        width: 100%;
+
+
+    }
+
+    .games__imagem-jogo {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .games__nome-produto {
+        font-size: 1.2rem;
+        margin: 20px 0 10px 0;
+        text-align: center;
+
+    }
+
+    .games__preco-produto {
+        font-size: 1.5rem;
+        margin: 5px 0;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .games__ver-produto {
+        font-size: 1.2rem;
+        margin: 10px 0;
+        color: var(--azul);
+        text-align: center;
+    }
+
+    .games__ver-produto:hover {
+        text-decoration: underline;
+    }
 }
 
-.games__flex-info-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+
+/*TABLET*/
+@media screen and (min-width: 768px) {
+    .games {
+        background: #121214;
+        margin-top: 3rem;
+    }
+
+    .games__flex-info-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+
+    }
+
+
+    .games__titulo {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+    }
+
+    .games__botao {
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: var(--azul);
+    }
+
+    .games__botao:hover {
+        text-decoration: underline;
+    }
+
+    .games__carrosel {
+        display: flex;
+        /*background: red;*/
+        flex-wrap: wrap;
+        /*gap: 10px;*/
+    }
+
+    .games__flex-card {
+        display: flex;
+        flex-direction: column;
+        /*margin-right: 11px;*/
+        /*background: yellow;*/
+        /*padding: 10px 5px 3px 5px;*/
+        margin-top: 1rem;
+        margin-bottom: 2.5rem;
+        padding: 0 1%;
+
+        /*background: rgba(255, 192, 203, 0.948);*/
+        width: 48%;
+    }
+
+    .games__imagem-jogo {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .games__nome-produto {
+        font-size: 1.5rem;
+        margin: 20px 0 10px 0;
+        text-align: center;
+
+    }
+
+    .games__preco-produto {
+        font-size: 1.9rem;
+        margin: 5px 0;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .games__ver-produto {
+        font-size: 1.6rem;
+        margin: 10px 0;
+        color: var(--azul);
+        text-align: center;
+    }
+
+    .games__ver-produto:hover {
+        text-decoration: underline;
+    }
 }
 
 
-.games__titulo{
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 1.5rem;
-}
-.games__botao{
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: var(--azul);
-}
+/*PC*/
+@media screen and (min-width: 1024px) {
+    .games {
+        background: #121214;
+        margin-top: 3rem;
+    }
 
-.games__botao:hover{
-    text-decoration: underline;
-}
+    .games__flex-info-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
 
-.games__carrosel{
-    display: flex;
-}
+    }
 
-.games__flex-card{
-    display: flex;
-    flex-direction: column;
-    margin-right: 11px;
 
-}
+    .games__titulo {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 1.5rem;
+    }
 
-.games__imagem-jogo{
-    width: 245px;
-    height: 300px;
-}
+    .games__botao {
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: var(--azul);
+    }
 
-.games__nome-produto{
-    font-size: 1.2rem;
-    margin: 20px 0 10px 0;
-}
+    .games__botao:hover {
+        text-decoration: underline;
+    }
 
-.games__preco-produto{
-    font-size: 1.5rem;
-    margin: 5px 0;
-    font-weight: bold;  
-}
+    .games__carrosel {
+        display: flex;
+        /*background: red;*/
+        flex-wrap: wrap;
+        /*gap: 10px;*/
+    }
 
-.games__ver-produto{
-    font-size: 1.2rem;
-    margin: 10px 0;
-    color: var(--azul);
-}
+    .games__flex-card {
+        display: flex;
+        flex-direction: column;
+        /*margin-right: 11px;*/
+        /*background: yellow;*/
+        /*padding: 10px 5px 3px 5px;*/
+        margin-top: 1rem;
+        margin-bottom: 2.5rem;
+        padding: 0 0%;
 
-.games__ver-produto:hover{
-    text-decoration: underline;
+
+        /*background: rgba(255, 192, 203, 0.948);*/
+        width: 20%;
+    }
+
+    .games__imagem-jogo {
+        width: 90%;
+        height: 70%;
+    }
+
+    .games__nome-produto {
+        font-size: 1.1rem;
+        margin: 20px 0 10px 0;
+        text-align: start;
+
+    }
+
+    .games__preco-produto {
+        font-size: 1.3rem;
+        margin: 5px 0;
+        font-weight: bold;
+        text-align: start;
+    }
+
+    .games__ver-produto {
+        font-size: 1.3rem;
+        margin: 10px 0;
+        color: var(--azul);
+        text-align: start;
+    }
+
+    .games__ver-produto:hover {
+        text-decoration: underline;
+    }
+
 }

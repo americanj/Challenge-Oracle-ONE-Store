@@ -1,5 +1,27 @@
-main{
-    width: 80%;
-    margin: 0rem auto;
-    /*border: solid 1px orange;*/
+
+/*CELULAR*/
+@media screen and (min-width: 0px) {
+    main {
+        width: 90%;
+        margin: 0rem auto;
+        /*border: solid 1px orange;*/
+    }
+}
+
+/*TABLET*/
+@media screen and (min-width: 768px) {
+    main {
+        width: 90%;
+        margin: 0rem auto;
+        /*border: solid 1px orange;*/
+    }
+}
+
+/*PC*/
+@media screen and (min-width: 1024px) {
+    main {
+        width: 80%;
+        margin: 0rem auto;
+        /*border: solid 1px orange;*/
+    }
 }
