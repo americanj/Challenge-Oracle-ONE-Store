@@ -46,10 +46,11 @@
 
 }
 
+/*Tablet*/
 @media screen and (min-width: 798px) {
     .login__container{
         margin: 0 auto;
-        width: 80%;
+        width: 70%;
         margin-top: 8%;
     }
     
@@ -66,6 +67,7 @@
 }
 
 
+/*PC*/
 @media screen and (min-width: 1024px) {
     .login__container{
         margin: 0 auto;
