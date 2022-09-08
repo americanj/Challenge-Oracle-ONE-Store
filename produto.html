@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="assets/css/padrao/normalize.css">
     <link rel="stylesheet" href="assets/css/padrao/style.css">
     <link rel="stylesheet" href="assets/css/cabecalho/cabecalho.css">
-    <link rel="stylesheet" href="assets/css/cabecalho/banner.css">
-    <link rel="stylesheet" href="assets/css/main/main.css">
-    <link rel="stylesheet" href="assets/css/main/games.css">
+
+    <link rel="stylesheet" href="assets/css/produto/main.css">
+    <link rel="stylesheet" href="assets/css/produto/produdo.css">
+    <link rel="stylesheet" href="assets/css/pagina-todos-produtos/games.css">
     <link rel="stylesheet" href="assets/css/rodape/footer.css">
-    <title>Home - Fanatical Games</title>
+    <title>Produto</title>
 </head>
 
 <body>
@@ -22,25 +23,27 @@
             <div class="cabecalho__container borda">
                 <div class="cabecalho__container-input-img">
                     <img class="cabecalho__logo" src="assets/img/Logo.svg" alt="">
-                    <input class="cabecalho__caixa-pesquisar" type="search" name="" id="" placeholder="O que deseja encontrar?">
+                    <input class="cabecalho__caixa-pesquisar" type="search" name="" id=""
+                        placeholder="O que deseja encontrar?">
                 </div>
-                <a class="cabecalho__btn-login" href="login.html">Login</a>
             </div>
         </nav>
-        <section class="banner borda">
-            <h1 class="banner__titulo">Dezembro Promocional</h1>
-            <h2 class="banner__subtitulo">Jogos selecionados 33% de desconto</h2>
-            <h3><a class="banner__botao" href="">Ver Promoções</a></h3>
-        </section>
     </header>
 
     <main>
-        <section class="games">
-            <hr>
-            <div class="games__flex-info-nav">
-                <h3 class="games__titulo">Aventura</h3>
-                <a class="games__botao" href="todos-produtos.html">Ver tudo &#10132;</a>
+        <section class="produto">    
+            <div class="produto__flex-card">
+                <img class="produto__imagem-jogo" src="assets/img/red.jpg" alt="">
+                <div class="produto__container-info">
+                    <span class="produto__nome-produto">Red Dead Redemption 2</span>
+                    <span class="produto__preco-produto">R$ 60,00</span>
+                    <p class="produto__info_produto">Red Dead Redemption é um jogo eletrônico de ação-aventura desenvolvido pela Rockstar San Diego e publicado pela Rockstar Games. Ele foi lançado em maio de 2010 para PlayStation 3 e Xbox 360.</p>
+                </div>
             </div>
+        </section>
+
+        <section class="produtosSimilares">
+            <h3 class="produtosSimilares__titulo">Produtos Similares</h3>
             <div class="games__carrosel">
                 <div class="games__flex-card">
                     <img class="games__flex-lapis"src="assets/img/lapis.svg" alt="">
@@ -48,7 +51,7 @@
                     <img class="games__imagem-jogo" src="assets/img/red.jpg" alt="">
                     <span class="games__nome-produto">Red Dead Redemption 2</span>
                     <span class="games__preco-produto">R$ 60,00</span>
-                    <a href="produto.html" class="games__ver-produto">Ver produto</a>
+                    <h4 class="games__ver-produto">Ver produto</h4>
                 </div>
 
                 <div class="games__flex-card">
@@ -95,16 +98,8 @@
                     <span class="games__preco-produto">R$ 60,00</span>
                     <h4 class="games__ver-produto">Ver produto</h4>
                 </div>
-            </div>
-        </section>
+ 
 
-        <section class="games">
-            <hr>
-            <div class="games__flex-info-nav">
-                <h3 class="games__titulo">Corrida</h3>
-                <a class="games__botao" href="todos-produtos.html">Ver tudo &#10132;</a>
-            </div>
-            <div class="games__carrosel">
                 <div class="games__flex-card">
                     <img class="games__imagem-jogo" src="assets/img/yZ7dpmjtHr1olhutHT57IFRh.webp" alt="">
                     <span class="games__nome-produto">Gran Turismo 7</span>
@@ -148,59 +143,6 @@
                 </div>
             </div>
         </section>
-
-        <!--
-        <section class="games">
-            <hr>
-            <div class="games__flex-info-nav">
-                <h3 class="games__titulo">Outros</h3>
-                <a class="games__botao" href="">Ver tudo &#10132;</a>
-            </div>
-            <div class="games__carrosel">
-                <div class="games__flex-card">
-                    <img class="games__imagem-jogo" src="assets/img/vilage.webp" alt="">
-                    <span class="games__nome-produto">Resident Evil Village</span>
-                    <span class="games__preco-produto">R$ 60,00</span>
-                    <h4 class="games__ver-produto">Ver produto</h4>
-                </div>
-
-                <div class="games__flex-card">
-                    <img class="games__imagem-jogo" src="assets/img/sub.png" alt="">
-                    <span class="games__nome-produto">Subnautica</span>
-                    <span class="games__preco-produto">R$ 60,00</span>
-                    <h4 class="games__ver-produto">Ver produto</h4>
-                </div>
-
-                <div class="games__flex-card">
-                    <img class="games__imagem-jogo" src="assets/img/strand.jpg" alt="">
-                    <span class="games__nome-produto">Stranded Deep</span>
-                    <span class="games__preco-produto">R$ 60,00</span>
-                    <h4 class="games__ver-produto">Ver produto</h4>
-                </div>
-
-                <div class="games__flex-card">
-                    <img class="games__imagem-jogo" src="assets/img/doom.jpg" alt="">
-                    <span class="games__nome-produto">Doom</span>
-                    <span class="games__preco-produto">R$ 60,00</span>
-                    <h4 class="games__ver-produto">Ver produto</h4>
-                </div>
-
-                <div class="games__flex-card">
-                    <img class="games__imagem-jogo" src="assets/img/Cyberpunk_2077_capa.png" alt="">
-                    <span class="games__nome-produto">Cyberpunk 2077</span>
-                    <span class="games__preco-produto">R$ 60,00</span>
-                    <h4 class="games__ver-produto">Ver produto</h4>
-                </div>
-
-                <div class="games__flex-card">
-                    <img class="games__imagem-jogo" src="assets/img/batman.jpg" alt="">
-                    <span class="games__nome-produto">Batman: Arkham Knight</span>
-                    <span class="games__preco-produto">R$ 60,00</span>
-                    <h4 class="games__ver-produto">Ver produto</h4>
-                </div>
-            </div>
-        </section>
-        -->
     </main>
 
     <footer>
@@ -218,7 +160,8 @@
                 <h5 class="rodape__titulo">Fale conosco</h5>
                 <form action="">
                     <input class="rodape__input-nome" type="text" placeholder="Seu nome">
-                    <textarea class="rodape__textarea" name="" id="" cols="30" rows="10" placeholder="Escreva uma mensagem"></textarea>
+                    <textarea class="rodape__textarea" name="" id="" cols="30" rows="10"
+                        placeholder="Escreva uma mensagem"></textarea>
                     <input class="rodape__input-enviar" type="submit" value="Enviar mensagem">
                 </form>
             </div>
@@ -226,4 +169,5 @@
     </footer>
     <span class="direitos">Desenvolvido por: Igor De Oliveira | 2022</span>
 </body>
+
 </html>
