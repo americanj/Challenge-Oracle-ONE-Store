@@ -65,15 +65,14 @@
             <div class="rodape__flex-form">
                 <h5 class="rodape__titulo">Fale conosco</h5>
                 <form action="">
-                    <input class="rodape__input-nome" type="text" placeholder="Seu nome">
-                    <textarea class="rodape__textarea" name="" id="" cols="30" rows="10"
-                        placeholder="Escreva uma mensagem"></textarea>
-                    <input class="rodape__input-enviar" type="submit" value="Enviar mensagem">
+                    <input data-inputNome="" class="rodape__input-nome" type="text" placeholder="Seu nome" maxlength="40" required>
+                    <textarea data-inputMensagem="" class="rodape__textarea" name="" id="" cols="30" rows="10" placeholder="Escreva uma mensagem" maxlength="120" required></textarea>
+                    <input data-formulario=""  class="rodape__input-enviar" type="submit" value="Enviar mensagem">
                 </form>
             </div>
         </div>
     </footer>
     <span class="direitos">Desenvolvido por: Igor De Oliveira | 2022</span>
+    <script src="assets/js/validacao/validacao-formulario-contato.js"></script>
 </body>
-
 </html>
