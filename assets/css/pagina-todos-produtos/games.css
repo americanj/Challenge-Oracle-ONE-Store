@@ -59,14 +59,23 @@
         width: 100%;
     }
 
-    .games__flex-lapis {
+    .games__flex-lapis-hidden{
+        display: none;
+    }
+
+    .games__flex-lapis{
+        
         margin: 5px;
         position: absolute;
         margin-left: 3rem;
         width: 30px;
     }
 
-    .games__flex-trash {
+    .games__flex-trash-hidden{
+        display: none;
+    }
+
+    .games__flex-trash{
         margin: 5px;
         position: absolute;
         width: 25px;

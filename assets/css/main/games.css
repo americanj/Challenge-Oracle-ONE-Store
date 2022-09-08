@@ -51,11 +51,19 @@
         width: 100%;
     }
 
+    .games__flex-lapis-hidden{
+        display: none;
+    }
+
     .games__flex-lapis{
         margin: 5px;
         position: absolute;
         margin-left: 3rem;
         width: 30px;
+    }
+
+    .games__flex-trash-hidden{
+        display: none;
     }
 
     .games__flex-trash{
@@ -165,14 +173,9 @@
 
     .games__flex-trash{
         margin: 5px;
-        position: absolute;
         width: 30px;
     }
 
-    .games__flex-trash:hover{
-        padding: 1px;
-        background: rgba(255, 0, 0, 0.345);
-    }
 
     .games__imagem-jogo {
         width: 100%;
@@ -270,13 +273,7 @@
 
     .games__flex-trash{
         margin: 5px;
-        position: absolute;
         width: 15px;
-    }
-
-    .games__flex-trash:hover{
-        padding: 1px;
-        background: rgba(255, 0, 0, 0.345);
     }
 
 
