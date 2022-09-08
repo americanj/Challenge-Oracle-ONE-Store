@@ -12,11 +12,18 @@
         align-items: center;
         flex-direction: column;
     }
+
     .games__titulo {
         font-size: 1.8rem;
         font-weight: bold;
         margin-bottom: 1.5rem;
     }
+
+
+    .games__botao-hidden {
+        display: none;
+    }
+
     .games__botao {
         padding: 10px;
         border-radius: 5px;
@@ -24,7 +31,9 @@
         text-decoration: none;
         color: var(--branco-fumaca);
         background: var(--azul);
+
     }
+
 
     .games__botao:hover {
         text-decoration: underline;
@@ -50,20 +59,20 @@
         width: 100%;
     }
 
-    .games__flex-lapis{
+    .games__flex-lapis {
         margin: 5px;
         position: absolute;
         margin-left: 3rem;
         width: 30px;
     }
 
-    .games__flex-trash{
+    .games__flex-trash {
         margin: 5px;
         position: absolute;
         width: 25px;
     }
 
-    .games__flex-trash:hover{
+    .games__flex-trash:hover {
         padding: 1px;
         background: rgba(255, 0, 0, 0.345);
     }
@@ -115,7 +124,7 @@
         align-items: center;
         flex-direction: row;
         align-items: center;
-        
+
 
     }
 
@@ -160,20 +169,20 @@
         width: 48%;
     }
 
-    .games__flex-lapis{
+    .games__flex-lapis {
         margin: 5px;
         position: absolute;
         margin-left: 3.5rem;
         width: 40px;
     }
 
-    .games__flex-trash{
+    .games__flex-trash {
         margin: 5px;
         position: absolute;
         width: 30px;
     }
 
-    .games__flex-trash:hover{
+    .games__flex-trash:hover {
         padding: 1px;
         background: rgba(255, 0, 0, 0.345);
     }
@@ -231,7 +240,7 @@
         font-size: 2rem;
         font-weight: bold;
         margin-bottom: 1.5rem;
-        
+
     }
 
     .games__botao {
@@ -258,7 +267,7 @@
         display: flex;
         flex-direction: column;
         /*margin-right: 11px;*/
-       /*background: yellow;*/
+        /*background: yellow;*/
         /*padding: 10px 5px 3px 5px;*/
         margin-top: 1rem;
         margin-bottom: 2.5rem;
@@ -269,20 +278,20 @@
         width: 20%;
     }
 
-    .games__flex-lapis{
+    .games__flex-lapis {
         margin: 5px;
         position: absolute;
         margin-left: 1.5rem;
         width: 20px;
     }
 
-    .games__flex-trash{
+    .games__flex-trash {
         margin: 5px;
         position: absolute;
         width: 15px;
     }
 
-    .games__flex-trash:hover{
+    .games__flex-trash:hover {
         padding: 1px;
         background: rgba(255, 0, 0, 0.345);
     }

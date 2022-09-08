@@ -24,7 +24,7 @@
                     <img class="cabecalho__logo" src="assets/img/Logo.svg" alt="">
                     <input class="cabecalho__caixa-pesquisar" type="search" name="" id="" placeholder="O que deseja encontrar?">
                 </div>
-                <a class="cabecalho__btn-login" href="login.html">Login</a>
+                <!--<a class="cabecalho__btn-login" href="login.html">Login</a>-->
             </div>
         </nav>
     </header>
@@ -33,7 +33,7 @@
         <section class="games"> 
             <div class="games__flex-info-nav">
                 <h3 class="games__titulo">Todos os produtos</h3>
-                <a class="games__botao" href="adicionar-produto.html">Adicionar produto</a>
+                <a data-btnAddProduto="" class="games__botao-hidden games__botao" href="adicionar-produto.html">Adicionar produto</a>
             </div>
             <div class="games__carrosel">
                 <div class="games__flex-card">
@@ -212,5 +212,8 @@
     </footer>
     <span class="direitos">Desenvolvido por: Igor De Oliveira | 2022</span>
     <script src="assets/js/validacao/validacao-formulario-contato.js"></script>
+    
+    <script src="assets/js/validacao/autenticacao-do-adm.js"></script>
+    
 </body>
 </html>

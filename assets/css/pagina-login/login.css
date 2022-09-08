@@ -32,6 +32,10 @@
     .login__input:focus{
         border: solid 1px var(--azul);
     }
+
+    .login__input-error{
+        border: solid 1px red;
+    }
     
     .login__input-botao{
         margin-top: 1rem;

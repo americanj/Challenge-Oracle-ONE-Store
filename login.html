@@ -35,7 +35,7 @@
                     <img class="cabecalho__logo" src="assets/img/Logo.svg" alt="">
                     <input class="cabecalho__caixa-pesquisar" type="search" name="" id="" placeholder="O que deseja encontrar?">
                 </div>
-                <a class="cabecalho__btn-login" href="login.html">Login</a>
+                <!--<a class="cabecalho__btn-login" href="login.html">Login</a>-->
             </div>
         </nav>
     </header>
@@ -43,9 +43,9 @@
     <section class="login__container">
         <div class="login__flex-container">
             <h5 class="login__titulo">Iniciar Sessão</h5>
-            <input class="login__input" type="email" name="" id="" placeholder="Digite seu email" required>
-            <input class="login__input"  type="password" placeholder="Digite sua senha" required>
-            <input class="login__input-botao" type="submit" value="Entrar">
+            <input data-login="" class="login__input" type="email" name="" placeholder="Digite seu email" required>
+            <input data-senha="" class="login__input"  type="password" placeholder="Digite sua senha" required>
+            <input data-btnEntrar="" class="login__input-botao" type="submit" value="Entrar">
         </div>
     </section>
 
@@ -64,7 +64,7 @@
                 <h5 class="rodape__titulo">Fale conosco</h5>
                 <form action="">
                     <input data-inputNome="" class="rodape__input-nome" type="text" placeholder="Seu nome" maxlength="40" required>
-                    <textarea data-inputMensagem="" class="rodape__textarea" name="" id="" cols="30" rows="10" placeholder="Escreva uma mensagem" maxlength="120" required></textarea>
+                    <textarea data-inputMensagem="" class="rodape__textarea" name="" cols="30" rows="10" placeholder="Escreva uma mensagem" maxlength="120" required></textarea>
                     <input data-formulario=""  class="rodape__input-enviar" type="submit" value="Enviar mensagem">
                 </form>
             </div>
@@ -72,5 +72,6 @@
     </footer>
     <span class="direitos">Desenvolvido por: Igor De Oliveira | 2022</span>
     <script src="assets/js/validacao/validacao-formulario-contato.js"></script>
+    <script src="assets/js/validacao/validacao-login.js"></script>
 </body>
 </html>
