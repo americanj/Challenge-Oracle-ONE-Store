@@ -69,6 +69,11 @@
     .rodape__input-nome:focus{
         border: var(--azul) solid 1px;
     }
+
+    .rodape__input-error{
+        border: red solid 1px;
+    }
+
     
     .rodape__textarea{
         padding: 20px;
@@ -82,6 +87,10 @@
     
     .rodape__textarea:focus{
         border: var(--azul) solid 1px;
+    }
+
+    .rodape__textarea-error{
+        border: red solid 1px;
     }
     
     
@@ -190,6 +199,9 @@
     .rodape__input-enviar:hover{
         background: #4989dc;
     }
+
+ 
+    
     
     .rodape__logo, .rodape__flex-nav, .rodape__flex-form{
         margin-top: 6rem;
