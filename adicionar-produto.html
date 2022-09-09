@@ -41,11 +41,11 @@
         <div class="adicionarProduto__flex-container">
             <h1>Adicionar novo produto</h1>
             <form action="">
-                <input class="adicionarProduto__input" type="url" placeholder="URL da imagem">
-                <input class="adicionarProduto__input" type="text" placeholder="Categoria">
-                <input class="adicionarProduto__input" type="text" placeholder="Nome do produto">
-                <input class="adicionarProduto__input" type="text" placeholder="Preço do produto">
-                <textarea class="adicionarProduto__input" name="" id="" cols="30" rows="10" placeholder="Descrição do produto"></textarea>
+                <input class="adicionarProduto__input" type="url" placeholder="URL da imagem" maxlength="20"  required>
+                <input class="adicionarProduto__input" type="text" placeholder="Categoria" required>
+                <input class="adicionarProduto__input" type="text" placeholder="Nome do produto" required>
+                <input class="adicionarProduto__input"  type="number" placeholder="Preço do produto apenas número e vírgula" required>
+                <textarea class="adicionarProduto__input" name="" id="" cols="30" rows="10" placeholder="Descrição do produto" maxlength="200"  required></textarea>
                 <input class="adicionarProduto__botao" type="submit" value="Adicionar produto">
             </form>
         </div>
@@ -73,6 +73,8 @@
         </div>
     </footer>
     <span class="direitos">Desenvolvido por: Igor De Oliveira | 2022</span>
-    <script src="assets/js/validacao/validacao-formulario-contato.js"></script>
+    <script src="assets/js/validacao-autenticacao/validacao-formulario-contato.js"></script>
+    <script src="assets/js/validacao-autenticacao/validacao-adicionarProdutos.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

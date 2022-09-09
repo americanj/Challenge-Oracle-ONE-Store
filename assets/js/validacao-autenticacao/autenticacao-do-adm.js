@@ -19,21 +19,18 @@ const lixeira = document.querySelectorAll('.games__flex-trash');
 
 
 
-
 //Verifica se o token coresponde, e dá os privilégios de administrador
 if(pegaAutenticacao == 'permitido'){
      btnAddProduto.classList.remove('games__botao-hidden');
 
-     lapis.forEach(function(elemento){
+     lapis.forEach(elemento =>{
           elemento.classList.remove('games__flex-lapis-hidden')
      })
 
      lixeira.forEach(function(elemento){
           elemento.classList.remove('games__flex-trash-hidden')
-     })
- 
+     }) 
 }
-
 
 
 
