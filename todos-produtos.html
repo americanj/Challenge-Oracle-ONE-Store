@@ -35,7 +35,7 @@
                 <h3 class="games__titulo">Todos os produtos</h3>
                 <a data-btnAddProduto="" class="games__botao-hidden games__botao" href="adicionar-produto.html">Adicionar produto</a>
             </div>
-            <div class="games__carrosel">
+            <div data-promocao2="" class="games__carrosel">
                 <div class="games__flex-card">
                     <img class="games__flex-lapis games__flex-lapis-hidden"src="assets/img/lapis.svg" alt="">
                     <img class="games__flex-trash games__flex-trash-hidden" src="assets/img/trash.svg" alt="">
@@ -54,7 +54,7 @@
                     <h4 class="games__ver-produto">Ver produto</h4>
                 </div>
 
-                <div class="games__flex-card">
+                <!--<div class="games__flex-card">
                     <img class="games__flex-lapis games__flex-lapis-hidden"src="assets/img/lapis.svg" alt="">
                     <img class="games__flex-trash games__flex-trash-hidden" src="assets/img/trash.svg" alt="">
                     <img class="games__imagem-jogo" src="assets/img/gta.webp" alt="">
@@ -88,7 +88,7 @@
                     <span class="games__nome-produto">Assassin's Creed Odyssey2</span>
                     <span class="games__preco-produto">R$ 60,00</span>
                     <h4 class="games__ver-produto">Ver produto</h4>
-                </div>
+                </div>-->
             </div>
         </section>
 
@@ -170,9 +170,15 @@
     <span class="direitos">Desenvolvido por: Igor De Oliveira | 2022</span>
     <script src="assets/js/validacao-autenticacao/validacao-formulario-contato.js"></script>
     
+    <!--primeiro ele monta a estrutura para fazer um card de jogo-->
+    <script src="assets/js/service/produto-service.js"></script>
+
+    <!--depois ele verifica-->
     <script src="assets/js/validacao-autenticacao/autenticacao-do-adm.js"></script>
 
-    <script src="assets/js/service/produto-service.js"></script>
+    
+
+    <!--<script src="assets/js/script.js"></script>-->
     
 </body>
 </html>

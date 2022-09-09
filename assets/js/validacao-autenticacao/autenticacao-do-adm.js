@@ -14,6 +14,7 @@ var pegaAutenticacao = sessionStorage.getItem('autenticacao');
 // funções do administrador
 const btnAddProduto = document.querySelector('[data-btnAddProduto]');
 
+
 const lapis = document.querySelectorAll('.games__flex-lapis');
 const lixeira = document.querySelectorAll('.games__flex-trash');
 
