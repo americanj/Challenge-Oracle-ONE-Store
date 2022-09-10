@@ -40,13 +40,13 @@
     <section>
         <div class="adicionarProduto__flex-container">
             <h1>Adicionar novo produto</h1>
-            <form action="">
-                <input class="adicionarProduto__input" type="url" placeholder="URL da imagem" maxlength="20"  required>
-                <input class="adicionarProduto__input" type="text" placeholder="Categoria" required>
-                <input class="adicionarProduto__input" type="text" placeholder="Nome do produto" required>
-                <input class="adicionarProduto__input"  type="number" placeholder="Preço do produto apenas número e vírgula" required>
-                <textarea class="adicionarProduto__input" name="" id="" cols="30" rows="10" placeholder="Descrição do produto" maxlength="200"  required></textarea>
-                <input class="adicionarProduto__botao" type="submit" value="Adicionar produto">
+            <form data-form="" action="">
+                <input data-url="" class="adicionarProduto__input" type="url" placeholder="URL da imagem" maxlength="200"  required>
+                <input data-categoria="" class="adicionarProduto__input" type="text" placeholder="Categoria" required>
+                <input data-nome="" class="adicionarProduto__input" type="text" placeholder="Nome do produto" required>
+                <input data-preco="" class="adicionarProduto__input"  type="number" placeholder="Preço do produto apenas número e vírgula" required>
+                <textarea data-descricao="" class="adicionarProduto__input" name="" id="" cols="30" rows="10" placeholder="Descrição do produto" maxlength="200"  required></textarea>
+                <input data-adicionar="" class="adicionarProduto__botao" type="submit" value="Adicionar produto">
             </form>
         </div>
     </section>
@@ -76,5 +76,6 @@
     <script src="assets/js/validacao-autenticacao/validacao-formulario-contato.js"></script>
     <script src="assets/js/validacao-autenticacao/validacao-adicionarProdutos.js"></script>
     <!--<script src="assets/js/script.js"></script>-->
+    <script src="assets/js/service/cria-produto.js"></script>
 </body>
 </html>
