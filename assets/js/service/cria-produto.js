@@ -15,6 +15,12 @@ const descricao = document.querySelector('[data-descricao]');
 
 const btnAdicionar = document.querySelector('[data-adicionar]');
 
+const btnExcluir = document.querySelector('[data-BtnTrash]')
+
+
+
+
+
 btnAdicionar.addEventListener('click', (evento) => {
 
     evento.preventDefault();
@@ -52,8 +58,3 @@ btnAdicionar.addEventListener('click', (evento) => {
     window.location.href = "index.html"
 
 })
-
-
-
-
-

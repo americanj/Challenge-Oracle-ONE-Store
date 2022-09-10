@@ -135,6 +135,7 @@ if (localStorage.length == 0) {
 
 
 
+
 const pegarJogos = localStorage.getItem('produtos');
 const jogosConvertidosObjeto = JSON.parse(pegarJogos)
 
@@ -144,10 +145,12 @@ const corrida = document.querySelector('[data-corrida]')
 
 
 
-function criaNovoJogo(imagem, nome, preco) {
+function criaNovoJogo(imagem, nome, preco, id) {
 
     const divNovoJogo = document.createElement('div')
+    divNovoJogo.dataset.id = id
     divNovoJogo.classList.add('games__flex-card');
+    
 
     const conteudo =
         `
@@ -159,6 +162,7 @@ function criaNovoJogo(imagem, nome, preco) {
             <a href="produto.html" class="games__ver-produto">Ver produto</a>
         `
     divNovoJogo.innerHTML = conteudo
+    
     return divNovoJogo;
 
 }
@@ -168,13 +172,13 @@ jogosConvertidosObjeto.forEach(elemento => {
 
 
     if (elemento.categoria == 'promocao') {
-        promocao.appendChild(criaNovoJogo(elemento.imagem, elemento.nome, elemento.preco))
+        promocao.appendChild(criaNovoJogo(elemento.imagem, elemento.nome, elemento.preco, elemento.id))
     }
     if (elemento.categoria == 'aventura') {
-        aventura.appendChild(criaNovoJogo(elemento.imagem, elemento.nome, elemento.preco))
+        aventura.appendChild(criaNovoJogo(elemento.imagem, elemento.nome, elemento.preco, elemento.id))
     }
     if (elemento.categoria == "corrida") {
-        corrida.appendChild(criaNovoJogo(elemento.imagem, elemento.nome, elemento.preco))
+        corrida.appendChild(criaNovoJogo(elemento.imagem, elemento.nome, elemento.preco, elemento.id))
     }
 })
 

@@ -49,10 +49,12 @@ http.onload = function(){
 const containerProdutos = document.querySelector('[data-todosProdudos]');
 
 
-function criaNovoJogo(imagem, nome, preco){
+function criaNovoJogo(imagem, nome, preco, id){
   
     const divNovoJogo = document.createElement('div')
+    divNovoJogo.dataset.id = id
     divNovoJogo.classList.add('games__flex-card');
+    
 
     const conteudo = 
     `
@@ -73,7 +75,7 @@ const pegarJogos = localStorage.getItem('produtos');
 const jogosConvertidosObjeto = JSON.parse(pegarJogos)
 
 jogosConvertidosObjeto.forEach(elemento => {
-    containerProdutos.appendChild(criaNovoJogo(elemento.imagem, elemento.nome, elemento.preco))
+    containerProdutos.appendChild(criaNovoJogo(elemento.imagem, elemento.nome, elemento.preco, elemento.id))
 })
 
 
