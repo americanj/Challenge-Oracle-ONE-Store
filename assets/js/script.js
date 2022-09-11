@@ -1,6 +1,10 @@
 
 
 var id = 1;
+//console.log(id+10);
+
+//var idTemplate = idTemplate + id;
+
 
 var jogos = [
     {
@@ -128,11 +132,10 @@ var jogos = [
 
 
 //se for a primeira vez seta os dados do array
-if (localStorage.length == 0) {
+if (localStorage.length <= 1) {
     console.log("setei itens do array");
     localStorage.setItem('produtos', JSON.stringify(jogos))
 }
-
 
 
 
@@ -151,7 +154,6 @@ function criaNovoJogo(imagem, nome, preco, id) {
     divNovoJogo.dataset.id = id
     divNovoJogo.classList.add('games__flex-card');
     
-
     const conteudo =
         `
             <img data-BtnLapis="" class="games__flex-lapis games__flex-lapis-hidden"src="assets/img/lapis.svg" alt="">
@@ -183,7 +185,7 @@ jogosConvertidosObjeto.forEach(elemento => {
 })
 
 
-
+//console.log(id - 1);
 
 
 

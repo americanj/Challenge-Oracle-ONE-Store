@@ -1,5 +1,5 @@
 
-
+var filtradorDeUltimoProduto = []
 
 
 const url = document.querySelector('[data-url]');
@@ -19,8 +19,6 @@ const btnExcluir = document.querySelector('[data-BtnTrash]')
 
 
 
-
-
 btnAdicionar.addEventListener('click', (evento) => {
 
     evento.preventDefault();
@@ -29,17 +27,19 @@ btnAdicionar.addEventListener('click', (evento) => {
 
     var resgatadosParseados = JSON.parse(resgatadosLocalStorage)
 
-    var idRecliclado = resgatadosParseados.length = resgatadosParseados.length + 1
-
-
+    //var idRecliclado = resgatadosParseados.length = resgatadosParseados.length + 1
     var resgatadosArray = []
 
 
     resgatadosParseados.forEach(elemento => {
         resgatadosArray.push(elemento)
+        filtradorDeUltimoProduto.push(elemento)
     })
 
 
+    var idDoUltimoProduto = filtradorDeUltimoProduto.slice(-1)[0].id
+    //console.log(filtradorDeUltimoProduto.slice(-1)[0].id);
+    
     var jogoPessoaAdiciona =
     {
         "imagem": url.value,
@@ -47,14 +47,14 @@ btnAdicionar.addEventListener('click', (evento) => {
         "preco": preco.value,
         "categoria": categoria.value,
         "descricao": descricao.value,
-        "id": idRecliclado
+        "id": idDoUltimoProduto = idDoUltimoProduto + 1
     }
 
+    
     resgatadosArray.push(jogoPessoaAdiciona);
     
-    
     localStorage.setItem('produtos', JSON.stringify(resgatadosArray))
-    console.log("adicionado com sucesso")
+    console.log("adicionado com sucesso id: " + idDoUltimoProduto)
     window.location.href = "index.html"
 
 })
