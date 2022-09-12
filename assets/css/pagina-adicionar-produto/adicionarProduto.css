@@ -36,6 +36,25 @@
         outline: none;
         cursor: pointer;
     }
+    .adicionarProduto__botao-hidden{
+        display: none;
+    }
+
+    .editarProduto__botao{
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        padding: 10px;
+        background: green;
+        color: var(--branco-fumaca);
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .editarProduto__botao-hidden{
+        display: none;
+    }
+
 }
 
 

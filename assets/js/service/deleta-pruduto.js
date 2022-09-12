@@ -1,5 +1,6 @@
 
 
+
 const resgatadosLocalStorage = localStorage.getItem('produtos')
 const resgatadosParseados = JSON.parse(resgatadosLocalStorage)
 
@@ -11,9 +12,9 @@ const btnExcluir = document.querySelectorAll('[data-BtnTrash]');
 btnExcluir.forEach(elemento => {
     elemento.addEventListener('click', function (evento) {
         //pega o elemento lixeira
-            //console.log(elemento);
+        //console.log(elemento);
         //pega o elemento clicaco
-            //console.log(evento.target);
+        //console.log(evento.target);
         //pega o id do elemento clicado
         const idDoPaiDoElementoCLicado = elemento.parentNode.dataset.id
 
@@ -34,6 +35,42 @@ btnExcluir.forEach(elemento => {
 })
 
 
+
+//REDIRECIONA PARA EDITAR PRODUTO
+const btnLapis = document.querySelectorAll('[data-BtnLapis]');
+btnLapis.forEach(elemento => {
+    elemento.addEventListener('click', () => {
+        var clicadoNoLapis = true
+        sessionStorage.setItem('clicado', JSON.stringify(clicadoNoLapis))
+        const idDoPaiDoElementoCLicado = elemento.parentNode.dataset.id
+        //console.log(idDoPaiDoElementoCLicado);
+
+        resgatadosParseados.forEach(element => {
+            if (element.id == idDoPaiDoElementoCLicado) {
+        
+                //const querEditar = true;
+                sessionStorage.setItem('editar', JSON.stringify(element))
+
+                //console.log("página deleta " + querEditar);
+                setTimeout(() => {
+                    console.log("Delayed for 1 second.");
+                    window.location.href = 'adicionar-produto.html'
+                  }, "300")
+                //
+
+            }
+
+        })
+    })
+})
+
+
+
+
+/*
+export function buceta(){
+    console.log("buceta");
+}*/
 
 
 
