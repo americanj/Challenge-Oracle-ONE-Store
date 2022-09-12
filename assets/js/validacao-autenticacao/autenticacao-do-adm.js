@@ -17,12 +17,14 @@ const btnAddProduto = document.querySelector('[data-btnAddProduto]');
 
 const lapis = document.querySelectorAll('.games__flex-lapis');
 const lixeira = document.querySelectorAll('.games__flex-trash');
+const bntSair = document.querySelector('[data-sair]');
 
 
 
 //Verifica se o token coresponde, e dá os privilégios de administrador
 if(pegaAutenticacao == 'permitido'){
      btnAddProduto.classList.remove('games__botao-hidden');
+     bntSair.classList.remove('cabecalho__btn-sair-hidden');
      //btnAddProduto.classList.remove('adicionarProduto__botao-hidden')
 
      lapis.forEach(elemento =>{
@@ -33,6 +35,10 @@ if(pegaAutenticacao == 'permitido'){
           elemento.classList.remove('games__flex-trash-hidden')
      }) 
 }
+
+bntSair.addEventListener('click', ()=>{
+     sessionStorage.removeItem('autenticacao');
+})
 
 
 

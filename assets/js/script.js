@@ -129,6 +129,21 @@ var jogos = [
     },
 ]
 
+const btnLogin = document.querySelector('[data-BtnLogin]');
+const btnSair = document.querySelector('[data-sair]');
+
+
+var pegaAutenticacao = sessionStorage.getItem('autenticacao');
+
+if(pegaAutenticacao == 'permitido'){
+    btnLogin.classList.add('cabecalho__btn-login-hidden');
+    btnSair.classList.remove('cabecalho__btn-sair-hidden');
+
+}
+
+btnSair.addEventListener('click', function(){
+    sessionStorage.removeItem('autenticacao');
+})
 
 
 //se for a primeira vez seta os dados do array
@@ -185,7 +200,7 @@ jogosConvertidosObjeto.forEach(elemento => {
 })
 
 
-//console.log(id - 1);
+
 
 
 

@@ -29,7 +29,7 @@
         <nav class="cabecalho borda">
             <div class="cabecalho__container borda">
                 <div class="cabecalho__container-input-img">
-                    <img class="cabecalho__logo" src="assets/img/Logo.svg" alt="">
+                    <img data-logo="" class="cabecalho__logo" src="assets/img/Logo.svg" alt="">
                     <!--<input class="cabecalho__caixa-pesquisar" type="search" name="" id="" placeholder="O que deseja encontrar?">-->
                 </div>
                 <!--<a class="cabecalho__btn-login" href="login.html">Login</a>-->
@@ -42,7 +42,7 @@
             <h1>Adicionar novo produto</h1>
             <form data-form="" action="">
                 <input data-url="" class="adicionarProduto__input" type="url" placeholder="URL da imagem" maxlength="200"  required>
-                <input data-categoria="" class="adicionarProduto__input" type="text" placeholder="Categoria" required>
+                <input data-categoria="" class="adicionarProduto__input" type="text" placeholder="digite apenas um: promocao | aventura | corrida" required>
                 <input data-nome="" class="adicionarProduto__input" type="text" placeholder="Nome do produto" required>
                 <input data-preco="" class="adicionarProduto__input"  type="text" placeholder="Preço do produto apenas número e vírgula" required>
                 <textarea data-descricao="" class="adicionarProduto__input" name="" id="" cols="30" rows="10" placeholder="Descrição do produto" maxlength="200"  required></textarea>
@@ -78,6 +78,6 @@
     <!--<script src="assets/js/script.js"></script>-->
     <script type="module" src="assets/js/service/cria-e-edita-produto.js"></script>
 
-    
+    <script src="assets/js/configurao-geral/config.js"></script>
 </body>
 </html>

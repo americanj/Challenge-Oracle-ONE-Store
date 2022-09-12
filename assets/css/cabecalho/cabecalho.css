@@ -51,6 +51,26 @@
         width: 5rem;
         text-decoration: none;
     }
+
+    .cabecalho__btn-login-hidden{
+        display: none;
+    }
+
+    .cabecalho__btn-sair{
+        margin-top: 10px;
+        padding: 10px;
+        text-align: center;
+        align-self: center;
+        font-family: var(--ralewey);
+        font-weight: lighter;
+        border: red 1px solid;
+        color: red;
+        width: 5rem;
+        text-decoration: none;
+    }
+    .cabecalho__btn-sair-hidden{
+        display: none;
+    }
 }
 
 
