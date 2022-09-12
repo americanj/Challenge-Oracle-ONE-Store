@@ -126,20 +126,23 @@
         flex-direction: column;
     }
     .produto__nome-produto{
+        margin-left: 2rem;
         font-weight: bold;
         font-size: 2rem;
         align-self: flex-start;
     }
     .produto__preco-produto{
+        margin-left: 2rem;
         font-size: 2rem;
         margin-top: 1rem;
         align-self: flex-start;
     }
     .produto__info_produto{
+        margin-left: 2rem;
         text-align: justify;
         line-height: 2.2rem;
         margin-top: 2rem;
-        width: 80%;
+        width: 100%;
         font-size: 1.5rem;
         padding: 0px;
 

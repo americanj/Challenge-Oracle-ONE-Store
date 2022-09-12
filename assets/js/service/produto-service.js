@@ -63,7 +63,7 @@ function criaNovoJogo(imagem, nome, preco, id){
         <img class="games__imagem-jogo" src="${imagem}" alt="">
         <span class="games__nome-produto">${nome}</span>
         <span class="games__preco-produto">R$ ${preco}</span>
-        <a href="produto.html" class="games__ver-produto">Ver produto</a>
+        <a data-verJogo href="produto.html" class="games__ver-produto">Ver produto</a>
     `
     divNovoJogo.innerHTML = conteudo
     return divNovoJogo;
